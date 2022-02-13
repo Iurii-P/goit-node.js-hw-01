@@ -3,7 +3,6 @@ const { randomUUID } = require("crypto");
 const path = require("path");
 
 const contactsPath = path.join(__dirname, "/db/contacts.json");
-console.log("file path of contacts.json :", contactsPath);
 
 const readContent = async () => {
 	const content = await fs.readFile(contactsPath, "utf-8");
