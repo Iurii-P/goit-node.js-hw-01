@@ -4,8 +4,8 @@
 	"description": "hw1",
 	"main": "index.js",
 	"scripts": {
-    "start": "node index",
-    "start:dev":"nodemon index"
+		"start": "node index",
+		"start:dev": "nodemon index"
 	},
 	"repository": {
 		"type": "git",
@@ -29,5 +29,8 @@
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"commander": "^9.0.0"
 	}
 }
