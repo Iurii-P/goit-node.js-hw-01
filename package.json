@@ -1,0 +1,33 @@
+{
+	"name": "goit-node.js-hw-01",
+	"version": "1.0.0",
+	"description": "hw1",
+	"main": "index.js",
+	"scripts": {
+    "start": "node index",
+    "start:dev":"nodemon index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Iurii-P/goit-node.js-hw-01.git"
+	},
+	"keywords": [
+		"node.js"
+	],
+	"author": "IuriiP",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Iurii-P/goit-node.js-hw-01/issues"
+	},
+	"homepage": "https://github.com/Iurii-P/goit-node.js-hw-01#readme",
+	"nodemonConfig": {
+		"ignore": [
+			"test/*",
+			"docs/*"
+		],
+		"delay": 2500
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
