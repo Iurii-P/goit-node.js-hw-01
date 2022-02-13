@@ -11,7 +11,6 @@ const readContent = async () => {
 	return result;
 };
 
-// TODO: задокументировать каждую функцию
 async function listContacts() {
 	return await readContent();
 }
