@@ -28,7 +28,7 @@
 		"delay": 2500
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.15"
+		"nodemon": "^2.0.20"
 	},
 	"dependencies": {
 		"commander": "^9.0.0"
